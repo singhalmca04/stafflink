@@ -81,6 +81,7 @@ h2 {
 }
 
 h3 {
+  color: var(--secondary-color);
   font-size: var(--h3-font-size);
 }
 
@@ -553,7 +554,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('../images/office-space.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -578,6 +579,20 @@ strong {
   top: 100px;
 }
 
+.company-name {
+    font-size: 16px;              /* bigger text */
+    font-weight: 700;               /* dark blue (professional look) */
+    letter-spacing: 1px;          /* space between letters */
+    text-transform: uppercase;    /* make it all caps */
+    line-height: 1.2;             /* tighter line spacing */
+}
+
+.company-name:hover {
+    color: #e74c3c;               /* attractive hover color */
+    transition: color 0.3s ease;  /* smooth hover effect */
+}
+
+
 .hero-image {
   position: relative;
   z-index: 2;
@@ -589,7 +604,7 @@ strong {
 @media screen and (min-width: 991px) {
   .hero-section {
     height: calc(90vh - 88px);
-    padding-top: 350px;
+    padding-top: 450px;
   }
 }
 
