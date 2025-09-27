@@ -576,7 +576,7 @@ strong {
 .hero-section .row {
   position: relative;
   z-index: 22;
-  top: 100px;
+  top: -190px;
 }
 
 .company-name {
@@ -828,7 +828,7 @@ strong {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 450px 450px 0 0;
+  /* border-width: 450px 450px 0 0; */
   border-color: var(--white-color) transparent transparent;
   pointer-events: none;
 }
